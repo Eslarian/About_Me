@@ -1,7 +1,28 @@
 .navbar {
   border-radius: 0 !important;
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  font-family: 'Roboto', sans-serif !important; }
 
 .Profile {
-  background: linear-gradient(to bottom right, black, grey);
+  background: #4BB748;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 13px;
+  color: #FFFFFF; }
+
+.MyQual {
+  background: #474e5d;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 13px;
+  color: #FFFFFF; }
+
+.PubRepo {
+  background: #E8AD0C;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 13px;
+  color: #FFFFFF; }
+
+.Resume {
+  background: #E8640C;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 13px;
   color: #FFFFFF; }

@@ -1,11 +1,35 @@
+// Styling used for the various sections of the website
+@mixin container($background) {
+	background: $background;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 13px;
+	color:#FFFFFF;
+}
+
+
+
+
+
 .navbar{
 	
 	border-radius: 0 !important;
 	margin-bottom: 0!important;
+	font-family: 'Roboto', sans-serif !important;
 	
 }
 
 .Profile {
-	background: linear-gradient(to bottom right,black,grey);
-	color:#FFFFFF;
+	@include container(#4BB748);
+}
+
+.MyQual {
+	@include container(#474e5d)
+}
+
+.PubRepo {
+	@include container(#E8AD0C)
+}
+
+.Resume {
+	@include container(#E8640C)
 }

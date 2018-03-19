@@ -27,11 +27,21 @@
 		<div class="container-fluid Profile text-center">
 			<h1> Who Am I?</h1>
 			<img src="https://goo.gl/bMdZko" class="img-circle" alt="me">
-			<h2> My name is Emile Amedeo Antognetti.</h2>
-			<h2> I'm a software developer who recently graduated from RMIT University </h2>
+			<h3> My name is Emile Amedeo Antognetti.</h3>
+			<h3> I'm a software developer and recent graduate of RMIT University </h3>
 		</div>
 
+		<div class="container-fluid MyQual">
+			<h1>My Qualifications</h1>
+		</div>
 
+		<div class="container-fluid PubRepo">
+			<h1>Public Repositories</h1>
+		</div>
+
+		<div class="container-fluid Resume">
+			<h1>Resume</h1>
+		</div>
 
 
 
