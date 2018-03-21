@@ -3,23 +3,23 @@
 	background: $background;
 	font-family: 'Roboto', sans-serif !important;
 	font-size: 13px;
+	height: 500px;
 	color:#FFFFFF;
 }
-
-
 
 
 
 .navbar{
 	
 	border-radius: 0 !important;
-	margin-bottom: 0!important;
 	font-family: 'Roboto', sans-serif !important;
 	
 }
 
 .Profile {
 	@include container(#4BB748);
+	margin-top:30px;
+	padding-top: 10px;
 }
 
 .MyQual {
@@ -32,4 +32,9 @@
 
 .Resume {
 	@include container(#E8640C)
+}
+
+.Document {
+	height:40px;
+	width:60px;
 }
