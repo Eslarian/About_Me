@@ -1,32 +1,32 @@
 // Styling used for the various sections of the website
 @mixin container($background) {
 	background: $background;
-	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
-	height: 500px;
 	color:#FFFFFF;
 }
 
 
-
-.navbar{
-	
-	border-radius: 0 !important;
-	font-family: 'Roboto', sans-serif !important;
-	
+body { 
+    padding-top: 50px; 
 }
 
+.navbar{
+	font-family: 'Roboto', sans-serif;	
+}
+
+
+// Main Divs
 .Profile {
 	@include container(#4BB748);
-	margin-top:30px;
-	padding-top: 10px;
+ 	padding-top: 10px;
 }
 
 .MyQual {
 	@include container(#474e5d)
 }
 
-.PubRepo {
+.Repo {
 	@include container(#E8AD0C)
 }
 
@@ -34,7 +34,8 @@
 	@include container(#E8640C)
 }
 
-.Document {
-	height:40px;
-	width:60px;
+
+//Sub Elements
+.carousel {
+	margin-bottom: 60px;
 }
