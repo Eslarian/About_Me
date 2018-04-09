@@ -12,6 +12,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+		<!-- Repo.js import -->
+		<script src="./js/repo.min.js"></script>
 
 		<!-- CSS Imports -->
 		<link rel="stylesheet" href="./css/index.css">
@@ -95,6 +97,15 @@
 
 		<div id="Repo" class="container-fluid Repo text-right">
 			<h1>Repositories</h1>
+			<div class="github-card" data-github="Eslarian/About_Me" data-width="400" data-height="299" data-theme="medium" data-target="blank"></div>
+			<div class="github-card" data-github="Eslarian/AAA1" data-width="400" data-height="" data-theme="medium" data-target="blank"></div>
+			<div class="github-card" data-github="Eslarian/ETS-Assignement" data-width="400" data-height="" data-theme="medium" data-target="blank"></div>
+			<div class="github-card" data-github="Eslarian/File_Renamer" data-width="400" data-height="" data-theme="medium" data-target="blank"></div>
+			<div class="github-card" data-github="Eslarian/Cpp_Ass1" data-width="400" data-height="299" data-theme="medium" data-target="blank"></div>
+			
+			<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+			
+
 		</div>
 
 		<div id="Res" class="container-fluid Resume">
