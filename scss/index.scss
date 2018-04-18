@@ -23,15 +23,16 @@ body {
 }
 
 .MyQual {
-	@include container(#474e5d)
+	@include container(#474e5d);
 }
 
 .Repo {
-	@include container(#E8AD0C)
+	@include container(#E8AD0C);
+	padding-bottom: 60px;
 }
 
-.Resume {
-	@include container(#E8640C)
+.Technologies {
+	@include container(#E8640C);
 }
 
 

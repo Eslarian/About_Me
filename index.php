@@ -32,14 +32,14 @@
 	    	        <span class="icon-bar"></span>
 	    	        <span class="icon-bar"></span>                        
 		    	</button>
-		      	<a class="navbar-brand" href="#">About Me</a>
+		      	<a class="navbar-brand" href="#">Emile Antognetti</a>
 		    </div>
 		     <div class="collapse navbar-collapse" id="myNavbar">
 			    <ul class="nav navbar-nav">
 			      <li class="active"><a href="#Prof">Profile</a></li>
 			      <li><a href="#Qual">My Qualifications</a></li>
 			      <li><a href="#Repo">Repositories</a></li>
-			      <li><a href="#Res">Resume</a></li>
+			      <li><a href="#Tech">Technologies</a></li>
 			    </ul>
 			</div>
 		  </div>
@@ -95,21 +95,20 @@
 			</div>
 		</div>
 
-		<div id="Repo" class="container-fluid Repo text-right">
+		<div id="Repo" class="container-fluid Repo text-center">
 			<h1>Repositories</h1>
-			<div class="github-card" data-github="Eslarian/About_Me" data-width="400" data-height="299" data-theme="medium" data-target="blank"></div>
-			<div class="github-card" data-github="Eslarian/AAA1" data-width="400" data-height="" data-theme="medium" data-target="blank"></div>
-			<div class="github-card" data-github="Eslarian/ETS-Assignement" data-width="400" data-height="" data-theme="medium" data-target="blank"></div>
-			<div class="github-card" data-github="Eslarian/File_Renamer" data-width="400" data-height="" data-theme="medium" data-target="blank"></div>
-			<div class="github-card" data-github="Eslarian/Cpp_Ass1" data-width="400" data-height="299" data-theme="medium" data-target="blank"></div>
+			<div class="github-card" data-github="Eslarian/About_Me" data-width="325" data-height="299" data-theme="medium" data-target="blank"></div>
+			<div class="github-card" data-github="Eslarian/AAA1" data-width="325" data-height="" data-theme="medium" data-target="blank"></div>
+			<div class="github-card" data-github="Eslarian/ETS-Assignement" data-width="325" data-height="" data-theme="medium" data-target="blank"></div>
+			<div class="github-card" data-github="Eslarian/File_Renamer" data-width="325" data-height="" data-theme="medium" data-target="blank"></div>
+			<div class="github-card" data-github="Eslarian/Cpp_Ass1" data-width="325" data-height="299" data-theme="medium" data-target="blank"></div>
 			
 			<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-			
 
 		</div>
 
-		<div id="Res" class="container-fluid Resume">
-			<h1>Resume</h1>
+		<div id="Tech" class="container-fluid Technologies">
+			<h1>Technologies I Enjoy Using</h1>
 		</div>
 
 
